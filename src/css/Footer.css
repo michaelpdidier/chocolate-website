@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    background-color: var(--dark-brown);
+    padding: 15vh;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
