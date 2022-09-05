@@ -20,7 +20,7 @@ export default function Card(props) {
                 onMouseOver={handleOnMouseOver}
             />
             <div className="card--stats">
-                <img src="/src/images/star.png" className="card--star" />
+                <img src="/images/star.png" className="card--star" />
                 <span>{props.stats.rating} ({props.stats.reviewCount})</span>
                 <span className="card--available"> • <span className="bold">Available: </span>{props.available}</span>
             </div>

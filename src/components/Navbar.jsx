@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../images/logo.png'
+import logo from '../../public/images/logo.png'
 
 export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false)

@@ -5,7 +5,7 @@ export default [
         title: "70% Tanzania",
         description: "From the mountains of Tanzania",
         price: 9.00,
-        coverImg: "/src/images/tanzania-bar.png",
+        coverImg: "/images/tanzania-bar.jpg",
         stats: {
             rating: 4.7,
             reviewCount: 6
@@ -18,7 +18,7 @@ export default [
         title: "70% India",
         description: "From Idduku Hills, India ",
         price: 9.00,
-        coverImg: "/src/images/india-bar.png",
+        coverImg: "/images/india-bar.jpg",
         stats: {
             rating: 4.8,
             reviewCount: 30
@@ -31,7 +31,7 @@ export default [
         title: "50% Costa Rica Cream",
         description: "50% Cacao dark cream chocolate, made with pure, rich, decadent cream.",
         price: 7.00,
-        coverImg: "/src/images/costa-rica-bar.png",
+        coverImg: "/images/costa-rica-bar.jpg",
         stats: {
             rating: 3.5,
             reviewCount: 2
@@ -44,7 +44,7 @@ export default [
         title: "70% Uganda",
         description: "50% Cacao dark cream chocolate, made with pure, rich, decadent cream.",
         price: 9.00,
-        coverImg: "/src/images/uganda-bar.png",
+        coverImg: "/images/uganda-bar.jpg",
         stats: {
             rating: 5.0,
             reviewCount: 6
@@ -57,7 +57,7 @@ export default [
         title: "70% Ecuador",
         description: "50% Cacao dark cream chocolate, made with pure, rich, decadent cream.",
         price: 9.00,
-        coverImg: "/src/images/ecuador-bar.png",
+        coverImg: "/images/ecuador-bar.jpg",
         stats: {
             rating: 4.8,
             reviewCount: 8
@@ -70,7 +70,7 @@ export default [
         title: "70% Dominican Republic",
         description: "50% Cacao dark cream chocolate, made with pure, rich, decadent cream.",
         price: 9.00,
-        coverImg: "/src/images/dominican-republic-bar.png",
+        coverImg: "/images/dominican-republic-bar.jpg",
         stats: {
             rating: 3.9,
             reviewCount: 4

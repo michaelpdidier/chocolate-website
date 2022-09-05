@@ -1,0 +1,12 @@
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap; /* nowrap makes a sideways scrolling list */
+    justify-content: space-evenly;
+    overflow-x: auto;
+    background-color: var(--very-light-brown);
+    height: 100vh;
+    padding: 10vh 10vw 10vh 10vw;
+    gap: 50px;
+  }
+  
