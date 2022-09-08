@@ -7,6 +7,7 @@ const Cart = () => {
             <h1>
                 Cart
             </h1>
+            <p>(Also under construction...)</p>
         </main>
     );
 };

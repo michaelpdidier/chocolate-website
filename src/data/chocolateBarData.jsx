@@ -11,7 +11,7 @@ export default [
             reviewCount: 6
         },
         origin: "Kilomboro Valley, Tanzania",
-        available: 30,
+        available: 0,
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ export default [
             reviewCount: 30
         },
         origin: "Idduku Hills, India",
-        available: 27,
+        available: 0,
     },
     {
         id: 3,

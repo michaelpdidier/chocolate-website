@@ -18,6 +18,11 @@ const Store = () => {
 
     return (
         <main>
+            <div id='store-header'>
+                <h1>Welcome to our Chocolate Store!</h1>
+                <p>This store is currently under construction. And, I'm still deciding whether we want a store at all. </p>
+                <p> Maybe we just want to just give away all of our chocolate, because we love sharing the love. </p>
+            </div>
             <section className="cards-list">
                 {chocolateBars}
             </section>

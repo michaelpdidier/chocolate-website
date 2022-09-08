@@ -8,5 +8,13 @@
     height: 100vh;
     padding: 10vh 10vw 10vh 10vw;
     gap: 50px;
+    color: var(--dark-brown)
   }
   
+  #store-header {
+    background-color: var(--very-light-brown);
+    margin: 0;
+    padding: 5vh;
+    text-align: center;
+    color: var(--dark-brown)
+  }
