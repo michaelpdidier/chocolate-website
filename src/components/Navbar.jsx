@@ -33,7 +33,7 @@ export default function Navbar() {
                     <li className="nav--items"><a href="/store">Store</a></li>
                     {/* <li className="nav--items"><a href="/rank">Rank</a></li> */}
                     {/* <li className="nav--items"><a href="/contact">Contact</a></li> */}
-                    <li className="nav--items"><a href="/cart">Cart</a></li>
+                    {/* <li className="nav--items"><a href="/cart">Cart</a></li> */}
                     {/* <li className="nav--items"><a href="/photos">Photos</a></li> */}
                 </ul>
             )}
