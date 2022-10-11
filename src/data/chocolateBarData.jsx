@@ -1,6 +1,45 @@
 // this is exporting an array of data to dynamically populate chocolate bar cards
 export default [
     {
+        id: 7,
+        title: "70% Columbia",
+        description: "",
+        price: "∞",
+        coverImg: "/images/columbia-bar.jpg",
+        stats: {
+            rating: 4.7,
+            reviewCount: 6
+        },
+        origin: "Aruca, Columbia",
+        available: 8,
+    },
+    {
+        id: 8,
+        title: "65% Huckleberry",
+        description: "",
+        price: "∞",
+        coverImg: "/images/huckleberry-bar.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 6
+        },
+        origin: "Columbia",
+        available: 0,
+    },
+    {
+        id: 9,
+        title: "75% Raspberry Rose",
+        description: "",
+        price: "∞",
+        coverImg: "/images/raspberry-rose-bar.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 6
+        },
+        origin: "Columbia",
+        available: 6,
+    },
+    {
         id: 1,
         title: "70% Tanzania",
         description: "From the mountains of Tanzania",
@@ -11,7 +50,7 @@ export default [
             reviewCount: 6
         },
         origin: "Kilomboro Valley, Tanzania",
-        available: 0,
+        available: 10,
     },
     {
         id: 2,
@@ -24,7 +63,7 @@ export default [
             reviewCount: 30
         },
         origin: "Idduku Hills, India",
-        available: 0,
+        available: 4,
     },
     {
         id: 3,
