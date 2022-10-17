@@ -1,18 +1,7 @@
 // this is exporting an array of data to dynamically populate chocolate bar cards
+
+// TODO: generate unique IDs. Right now they're just numbered, but that doesn't work well when I reorder the bars 
 export default [
-    {
-        id: 7,
-        title: "70% Columbia",
-        description: "",
-        price: "∞",
-        coverImg: "/images/columbia-bar.jpg",
-        stats: {
-            rating: 4.7,
-            reviewCount: 6
-        },
-        origin: "Aruca, Columbia",
-        available: 8,
-    },
     {
         id: 8,
         title: "65% Huckleberry",
@@ -38,6 +27,19 @@ export default [
         },
         origin: "Columbia",
         available: 6,
+    },
+    {
+        id: 7,
+        title: "70% Columbia",
+        description: "",
+        price: "∞",
+        coverImg: "/images/columbia-bar.jpg",
+        stats: {
+            rating: 4.7,
+            reviewCount: 6
+        },
+        origin: "Aruca, Columbia",
+        available: 8,
     },
     {
         id: 1,
