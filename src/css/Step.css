@@ -44,12 +44,17 @@
     width: 50vw;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
 }
 
-.step--description > p {
+.step--title {
+    padding: 0 10vw 0 10vw;
+}
+.step--subtext {
+    font-size: .4em;
     padding: 0 10vw 0 10vw;
 }
 

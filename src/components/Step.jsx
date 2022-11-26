@@ -52,8 +52,10 @@ export default function Step(props) {
             divs. On desktop image/description will alternate left right every other one.
             On mobile, the order will always be description -> image.  */}
             <div className="step--description" style={{"order": isMobile ? 0 : props.id % 2}}>
-                <p>{props.description}</p>
+                <div className="step--title">{props.description}</div>
+                <div className="step--subtext">{props.subtext}</div>
             </div>
+            
         </section>
     )
 }

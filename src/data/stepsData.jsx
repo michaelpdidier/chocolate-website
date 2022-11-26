@@ -47,22 +47,23 @@ export default [
     {
         id: 7,
         fileName: "winnow",
-        description: "Winnow",
-        subtext: "(Separate the nib from the husk)",
+        type: "video",
+        description: "And winnow",
+        subtext: "to separate the inside of the bean, nibs, from its shell or husk",
     },
     {
         id: 8,
         fileName: "conching",
         type: "video",
-        description: "Conch for 36 hours",
-        subtext: "",
+        description: "Conch for 2-5 days",
+        subtext: "Longer = smoother chocolate",
     },
     {
         id: 9,
         fileName: "temper",
         type: "image",
         description: "Temper",
-        subtext: "",
+        subtext: "For the perfect snap",
     },
     {
         id: 10,
