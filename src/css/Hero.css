@@ -1,37 +1,36 @@
-
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    background-color: var(--very-light-brown);
-    min-height: 70vh;
-    text-align: center;
-  }
-  
-  /* .hero--photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  background-color: var(--very-light-brown);
+  min-height: 70vh;
+  text-align: center;
+}
+
+/* .hero--photo {
     max-width: 400px;
     align-self: center;
   } */
-  
-  .hero--heading {
-    /* margin-bottom: 16px; */
-    font-size: 2em;
-    color: var(--med-dark-brown);
-    font-family: 'Jost', sans-serif;
-    font-weight:500;
-  }
-  
-  .hero--subheading {
-    /* margin-bottom: 16px; */
-    font-size: 1.2em;
-    color: var(--light-accent);
-    font-family: 'Jost', sans-serif;
-    font-weight: 300;
-  }
-  
-  .hero--text {
-    margin-top: 0;
-  }
+
+.hero--heading {
+  /* margin-bottom: 16px; */
+  font-size: 2em;
+  color: var(--med-dark-brown);
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+.hero--subheading {
+  /* margin-bottom: 16px; */
+  font-size: 1.2em;
+  color: var(--light-accent);
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+
+.hero--text {
+  margin-top: 0;
+}

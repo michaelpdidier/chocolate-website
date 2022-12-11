@@ -1,27 +1,26 @@
-
 .cards-list {
-    display: flex;
-    flex-wrap: wrap; /* nowrap makes a sideways scrolling list */
-    justify-content: space-evenly;
-    overflow-x: auto;
-    background-color: var(--very-light-brown);
-    /* height: 100vh; */
-    padding: 10vh 10vw 10vh 10vw;
-    gap: 50px;
-    color: var(--dark-brown)
-  }
-  
-  #store-header {
-    background-color: var(--very-light-brown);
-    margin: 0;
-    padding: 5vh;
-    text-align: left;
-    color: var(--dark-brown);
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  flex-wrap: wrap; /* nowrap makes a sideways scrolling list */
+  justify-content: space-evenly;
+  overflow-x: auto;
+  background-color: var(--very-light-brown);
+  /* height: 100vh; */
+  padding: 10vh 10vw 10vh 10vw;
+  gap: 50px;
+  color: var(--dark-brown);
+}
 
-  #store-description{
-    width: 60vw;
-    color: var(--dark-brown);
-  }
+#store-header {
+  background-color: var(--very-light-brown);
+  margin: 0;
+  padding: 5vh;
+  text-align: left;
+  color: var(--dark-brown);
+  display: flex;
+  justify-content: center;
+}
+
+#store-description {
+  width: 60vw;
+  color: var(--dark-brown);
+}

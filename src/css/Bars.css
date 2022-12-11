@@ -1,0 +1,105 @@
+.bars-container {
+  display: grid;
+  width: 100vw;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.bars-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+  background-color: var(--very-light-brown);
+  width: 100vw;
+  /* flex: none; */
+  /* padding: 10vh 10vw 10vh 10vw; */
+  /* gap: 10px; */
+  color: var(--dark-brown);
+}
+
+.bar--tile {
+  /* width: 1fr; */
+  min-height: 250px;
+  max-height: 300px;
+  min-width: 250px;
+  /* max-width: 400px; */
+  /* width: 10vw; */
+  /* max-width: 25vw; */
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 2vh;
+  flex: 1;
+  transition: filter 0.1s ease-in-out;
+  /* flex-direction: column; */
+  /* position: relative; */
+}
+.bar--tile:hover {
+  filter: brightness(55%); /* on hover, image dims */
+}
+
+.card--image {
+  /* width: 100%; */
+  align-self: center;
+  height: 80%;
+  width: auto;
+  border-radius: 9px;
+}
+
+/* .card--image:hover {
+  filter: brightness(85%); 
+} */
+
+/* .card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+  } */
+
+/* .card--description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px;
+}
+
+.card--origin {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.card--price {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  color: gray;
+  align-items: center;
+}
+
+.card--available {
+  padding-left: 3px;
+}
+
+.card--star {
+  height: 14px;
+  padding: 3px;
+} */
+
+/* .card--price {
+    margin-top: auto;
+  } */
+/* 
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+} */

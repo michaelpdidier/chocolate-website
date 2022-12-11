@@ -1,12 +1,12 @@
 /* Navigation styling  */
 :root {
-  --very-light-brown: #EDDFD8;
-  --light-brown: #D8BBA2;
-  --med-light-brown: #B19176;
-  --main-brown: #8A6545;
-  --med-dark-brown: #632E00;
+  --very-light-brown: #eddfd8;
+  --light-brown: #d8bba2;
+  --med-light-brown: #b19176;
+  --main-brown: #8a6545;
+  --med-dark-brown: #632e00;
   --dark-brown: #321700;
-  --light-accent: #C28080;
+  --light-accent: #c28080;
 }
 
 /* TODO: create global styles: h1, h2, h3, h4 ... */
@@ -42,9 +42,8 @@ button {
   text-align: center;
   font-size: 1.7em;
   color: var(--main-brown);
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 500;
-
 }
 
 .callout--description {
