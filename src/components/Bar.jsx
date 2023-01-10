@@ -4,7 +4,7 @@ export default function Bar(props) {
   //   const [isExpanded, setIsExpanded] = useState(false);
   const [showBack, setShowBack] = useState(false);
 
-  function color() {
+  function dynamicBgColor() {
     console.log(props.id);
     switch (props.id % 3) {
       case 0:
@@ -17,31 +17,47 @@ export default function Bar(props) {
     }
   }
 
-  function handleOnMouseOver() {
-    console.log("moused over");
+  function handleOnMouseEnter() {
+    setShowBack(true);
+  }
+
+  function handleOnMouseLeave() {
+    setShowBack(false);
   }
 
   function handleClick() {
     if (card.variant === "click") {
-      setShowBack(!showBack);
+      //   setShowBack(!showBack);
     }
   }
 
   function handleFocus() {
     if (card.variant === "focus") {
-      setShowBack(true);
+      //   setShowBack(true);
     }
   }
 
   function handleBlur() {
     if (card.variant === "focus") {
-      setShowBack(false);
+      //   setShowBack(false);
     }
   }
 
   return (
-    <div className="bar--tile" style={{ backgroundColor: color() }}>
-      <img src={props.coverImg} className="card--image" />
+    <div
+      className="bar--tile-front"
+      style={{ backgroundColor: dynamicBgColor() }}
+      onMouseEnter={handleOnMouseEnter}
+      onMouseLeave={handleOnMouseLeave}
+    >
+      {showBack ? (
+        <div className="bar--tile-back">
+          <h2>{props.title}</h2>
+          <p>{props.description}</p>
+        </div>
+      ) : (
+        <img src={props.coverImg} className="card--image" />
+      )}
     </div>
   );
 }

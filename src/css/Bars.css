@@ -18,7 +18,7 @@
   color: var(--dark-brown);
 }
 
-.bar--tile {
+.bar--tile-front {
   /* width: 1fr; */
   min-height: 250px;
   max-height: 300px;
@@ -35,9 +35,13 @@
   /* flex-direction: column; */
   /* position: relative; */
 }
-.bar--tile:hover {
-  filter: brightness(55%); /* on hover, image dims */
+
+.bar--tile-back {
+  color: var(--very-light-brown);
 }
+/* .bar--tile-front:hover {
+  filter: brightness(55%); on hover, image dims
+} */
 
 .card--image {
   /* width: 100%; */
